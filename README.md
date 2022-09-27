@@ -18,3 +18,6 @@ Seguridad mejorada: Al ocultar el proxy inverso la IP del servidor de origen de 
 
 ## Instalacion nginx 
 ✨[Descargar](https://nginx.org/en/download.html)✨
+
+## Instalacion pm2
+npm install pm2 -g
