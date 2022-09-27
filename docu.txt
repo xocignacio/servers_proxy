@@ -1,0 +1,13 @@
+utilizo pm2 unprocess manager simplifica la app para ejecutarla como cluster
+
+
+INSTALACION => npm install pm2 -g (como lo instalo de forma global no me va a aparecer en el package.json)
+CORRERLO => pm2 start app.js  /// pm2 start ./ecosystem.config.cjs 
+pm2 list (me dice los procesos corriendo)
+pm2 delete + numerodelproceso
+pm2 delete all => elimina todos los procesos 
+pm2 monit => me abre un panel con todos los procesos que estoy corriendo 
+
+////////// pm2 init simple => crea un archivo ecosystem.config.js (corre pm2 sin tenerlo que llamarlo desde la consola) //////////
+
+con ecosystem genero varias instancias de un proceso
