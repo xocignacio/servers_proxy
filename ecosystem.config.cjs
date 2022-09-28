@@ -7,8 +7,8 @@ module.exports = {
     env: {
       PORT:8080
     },
-    /* exec_mode:"cluster",
-       instances:4,         */
+     exec_mode:"cluster",
+     instances:3,   
   },
   {
     name   : "server 2",
