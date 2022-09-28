@@ -18,6 +18,7 @@ Seguridad mejorada: Al ocultar el proxy inverso la IP del servidor de origen de 
 
 ## Instalacion nginx 
 ✨[Descargar](https://nginx.org/en/download.html)✨
+- Descargar en dico C, y pegar el proyecto en la carpeta de nginx y remplazar el archivo nginx.conf por el que viene con el proyecto
 
 ## Instalacion pm2
 npm install pm2 -g
