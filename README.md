@@ -5,7 +5,7 @@
 ✨[Servidor 2](http://localhost:8081/)✨
 
 ## Conceptos
--  utilizo pm2 unprocess manager simplifica la app para ejecutarla como cluster
+-  utilizo pm2 un process manager que simplifica la app para ejecutarla como cluster
 -  con ecosystem genero varias instancias de un proceso , utilizando formato cjs
 -  Con nginx (servidor web), orientado a eventos, que actúa como un proxy lo que nos permite redireccionar el tráfico entrante en función del dominio de dónde vienen,      hacia el proceso y puerto que nos interese.
 - La carpeta del proyecto se ubica dentro de la carpeta disco:C/nginx
